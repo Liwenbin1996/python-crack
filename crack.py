@@ -49,6 +49,7 @@ imageset = []
 
 #加载训练集
 im = Image.open(IMG)
+im.convert("P")
 im2 = Image.new("P",im.size,255)
 for letter in iconset:
     for img in os.listdir('./iconset/%s/' % (letter)):
