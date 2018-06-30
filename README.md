@@ -17,3 +17,5 @@ $ sudo pip install pillow
 ```
 $ python crack.py test.git
 ```
+
+本项目源自实验楼https://www.shiyanlou.com/courses/364
